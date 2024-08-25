@@ -5,6 +5,20 @@
 //Your tasks:
 //1. Store Mark's and John's mass and height in variables
 
+// Dữ liệu 1
+var canNangMark1 = 78; // kg
+var chieuCaoMark1 = 1.69; // mét
+console.log("testing rsc");
+var canNangJohn1 = 92; // kg
+var chieuCaoJohn1 = 1.95; // mét
+
+// Dữ liệu 2
+var canNangMark2 = 95; // kg
+var chieuCaoMark2 = 1.88; // mét
+var canNangJohn2 = 85; // kg
+var chieuCaoJohn2 = 1.76; // mét
+
+
 //2. Calculate both their BMIs using the formula (you can even implement both versions)
 // Tính BMI cho Dữ liệu 1
 let bmiMark1 = canNangMark1 / (chieuCaoMark1 * 2);
@@ -20,18 +34,6 @@ let bmiJohn2 = canNangJohn2 / (chieuCaoJohn2 * 2);
 // Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
 // Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
 // Kiểm tra liệu BMI của Mark có cao hơn John hay không
-
-// Dữ liệu 1
-var canNangMark1 = 78; // kg
-var chieuCaoMark1 = 1.69; // mét
-var canNangJohn1 = 92; // kg
-var chieuCaoJohn1 = 1.95; // mét
-
-// Dữ liệu 2
-var canNangMark2 = 95; // kg
-var chieuCaoMark2 = 1.88; // mét
-var canNangJohn2 = 85; // kg
-var chieuCaoJohn2 = 1.76; // mét
 
 let markCaoBMI1 = bmiMark1 > bmiJohn1;
 let markCaoBMI2 = bmiMark2 > bmiJohn2;
